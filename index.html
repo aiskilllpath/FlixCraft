@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Freelance video editor and shooter portfolio for Shivraj Patat." />
+    <title>Shivraj Patat | Cinematic Video Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading screen animation -->
+    <div class="loader" aria-label="Loading website">
+      <div class="loader-ring"></div>
+      <p>Loading Shivraj Patat</p>
+    </div>
+
+    <!-- Fixed navigation -->
+    <header class="site-header">
+      <a class="logo" href="#home" aria-label="Shivraj Patat home">
+        <span>SP</span>
+        Shivraj Patat
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#samples">Samples</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#booking">Booking</a>
+        <a href="#payment">Payment</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME SECTION -->
+      <section id="home" class="page-section hero-section" data-slide="right">
+        <div class="cinematic-bg">
+          <!-- Replace this reel video -->
+          <video autoplay muted loop playsinline poster="images/reel1-poster.jpg">
+            <source src="videos/reel1.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="section-inner hero-grid">
+          <div class="hero-copy reveal-item">
+            <p class="eyebrow">Freelance Video Editor & Shooter</p>
+            <h1>Cinematic Reels &amp; Short Video Editing</h1>
+            <p class="hero-subtitle">
+              Professional Instagram Reels, YouTube Shorts &amp; Cinematic Video Editing by Shivraj Patat
+            </p>
+
+            <div class="button-row">
+              <a class="btn btn-primary" href="#samples">View Samples</a>
+              <a class="btn btn-secondary" href="#booking">Book Shoot</a>
+              <a class="btn btn-ghost" href="#contact">Contact Editor</a>
+            </div>
+          </div>
+
+          <div class="editor-panel glass-card reveal-item">
+            <div class="panel-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="phone-preview">
+              <!-- Replace this reel video -->
+              <video autoplay muted loop playsinline poster="images/reel2-poster.jpg">
+                <source src="videos/reel2.mp4" type="video/mp4" />
+              </video>
+              <div class="play-badge">PLAY</div>
+            </div>
+            <div class="timeline">
+              <span class="clip blue"></span>
+              <span class="clip pink"></span>
+              <span class="clip gold"></span>
+              <span class="playhead"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SAMPLES SECTION -->
+      <section id="samples" class="page-section samples-section" data-slide="left">
+        <div class="section-inner">
+          <div class="section-heading reveal-item">
+            <p class="eyebrow">Sample Edits</p>
+            <h2>Short-Form Video Portfolio</h2>
+            <p>Replace these local videos with your real reel edits when you are ready.</p>
+          </div>
+
+          <div class="sample-grid">
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel1-poster.jpg">
+                  <source src="videos/reel1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Wedding Highlight Reel</h3>
+                <p>Emotional cuts, cinematic pacing, and warm color grading.</p>
+                <button class="play-btn" type="button" data-title="Wedding Highlight Reel" data-video="videos/reel1.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel2-poster.jpg">
+                  <source src="videos/reel2.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Beat Sync Reel</h3>
+                <p>Fast social cuts matched tightly to the music beat.</p>
+                <button class="play-btn" type="button" data-title="Beat Sync Reel" data-video="videos/reel2.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel3-poster.jpg">
+                  <source src="videos/reel3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Pre-Wedding Film</h3>
+                <p>Romantic camera movement, transitions, and cinematic tone.</p>
+                <button class="play-btn" type="button" data-title="Pre-Wedding Film" data-video="videos/reel3.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel1-poster.jpg">
+                  <source src="videos/reel1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Event Recap Edit</h3>
+                <p>Short, clear, and energetic coverage for birthday or business events.</p>
+                <button class="play-btn" type="button" data-title="Event Recap Edit" data-video="videos/reel1.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel2-poster.jpg">
+                  <source src="videos/reel2.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Creator Content Reel</h3>
+                <p>Clean captions, hook-first cuts, and retention-focused editing.</p>
+                <button class="play-btn" type="button" data-title="Creator Content Reel" data-video="videos/reel2.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+
+            <article class="sample-card glass-card reveal-item">
+              <div class="video-thumb">
+                <!-- Replace this reel video -->
+                <video muted loop playsinline preload="metadata" poster="images/reel3-poster.jpg">
+                  <source src="videos/reel3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h3>Cinematic Product Reel</h3>
+                <p>Product reveals with smooth speed ramps and polished sound design.</p>
+                <button class="play-btn" type="button" data-title="Cinematic Product Reel" data-video="videos/reel3.mp4">
+                  Play
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="page-section about-section" data-slide="right">
+        <div class="section-inner about-grid">
+          <div class="profile-frame reveal-item">
+            <!-- Replace this image with your own -->
+            <img src="images/profile.jpg" alt="Profile photo of Shivraj Patat" />
+          </div>
+
+          <div class="about-copy reveal-item">
+            <p class="eyebrow">About the Editor</p>
+            <h2>Shivraj Patat</h2>
+            <p>
+              A freelance video editor and shooter focused on cinematic short-form videos,
+              wedding films, creator content, and clean social media edits.
+            </p>
+
+            <div class="skill-list">
+              <span>Reel Editing</span>
+              <span>Wedding Shoots</span>
+              <span>Cinematic transitions</span>
+              <span>Beat sync editing</span>
+              <span>Color grading</span>
+              <span>Professional video shooting</span>
+            </div>
+
+            <div class="stats-grid">
+              <div class="stat-card glass-card">
+                <strong data-count="120">0</strong>
+                <span>Projects completed</span>
+              </div>
+              <div class="stat-card glass-card">
+                <strong data-count="75">0</strong>
+                <span>Happy clients</span>
+              </div>
+              <div class="stat-card glass-card">
+                <strong data-count="3">0</strong>
+                <span>Years of experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING SECTION -->
+      <section id="pricing" class="page-section pricing-section" data-slide="left">
+        <div class="section-inner">
+          <div class="section-heading reveal-item">
+            <p class="eyebrow">Pricing</p>
+            <h2>Editing & Shoot Packages</h2>
+            <p>Example prices in INR. Update these numbers whenever your packages change.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card glass-card reveal-item">
+              <h3>Basic Reel Edit</h3>
+              <p class="price">₹499</p>
+              <p>Simple reel edit with clean cuts, music sync, and basic captions.</p>
+              <a class="btn btn-primary" href="#booking">Book Now</a>
+            </article>
+
+            <article class="price-card featured glass-card reveal-item">
+              <span class="badge">Popular</span>
+              <h3>Premium Cinematic Edit</h3>
+              <p class="price">₹1,499</p>
+              <p>Cinematic transitions, sound effects, color grade, and premium pacing.</p>
+              <a class="btn btn-primary" href="#booking">Book Now</a>
+            </article>
+
+            <article class="price-card glass-card reveal-item">
+              <h3>Wedding Shoot Package</h3>
+              <p class="price">₹24,999</p>
+              <p>Professional wedding video shoot with cinematic editing and highlights.</p>
+              <a class="btn btn-primary" href="#booking">Book Now</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKING SECTION -->
+      <section id="booking" class="page-section booking-section" data-slide="right">
+        <div class="section-inner booking-grid">
+          <div class="booking-copy reveal-item">
+            <p class="eyebrow">Book a Shoot</p>
+            <h2>Schedule Your Project</h2>
+            <p>
+              Share your event, shoot date, and editing style. Shivraj can help with shoots,
+              content creation, and polished final edits.
+            </p>
+
+            <div class="service-list glass-card">
+              <h3>Available Services</h3>
+              <span>Wedding Shoots</span>
+              <span>Pre-Wedding</span>
+              <span>Birthday Events</span>
+              <span>Reels &amp; Content Creation</span>
+              <span>Cinematic Edits</span>
+            </div>
+          </div>
+
+          <form class="booking-form glass-card reveal-item">
+            <label for="booking-name">Name</label>
+            <input id="booking-name" name="name" type="text" placeholder="Your name" required />
+
+            <label for="booking-phone">Phone number</label>
+            <input id="booking-phone" name="phone" type="tel" placeholder="+91 00000 00000" required />
+
+            <label for="booking-email">Email</label>
+            <input id="booking-email" name="email" type="email" placeholder="your@email.com" required />
+
+            <label for="shoot-type">Type of shoot</label>
+            <select id="shoot-type" name="shoot-type" required>
+              <option value="">Select a service</option>
+              <option>Wedding Shoots</option>
+              <option>Pre-Wedding</option>
+              <option>Birthday Events</option>
+              <option>Reels &amp; Content Creation</option>
+              <option>Cinematic Edits</option>
+            </select>
+
+            <label for="booking-date">Preferred date</label>
+            <input id="booking-date" name="date" type="date" required />
+
+            <label for="booking-message">Message</label>
+            <textarea id="booking-message" name="message" rows="4" placeholder="Tell me your shoot details..."></textarea>
+
+            <button class="btn btn-primary" type="submit">Schedule Booking</button>
+            <a class="btn btn-secondary" href="#" aria-label="WhatsApp quick booking placeholder">
+              WhatsApp Quick Booking
+            </a>
+            <p class="booking-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- PAYMENT SECTION -->
+      <section id="payment" class="page-section payment-section" data-slide="left">
+        <div class="section-inner payment-grid">
+          <div class="payment-copy reveal-item">
+            <p class="eyebrow">Payment</p>
+            <h2>Simple UPI Payment</h2>
+            <p>Use this section after confirming project details and delivery timeline.</p>
+
+            <div class="payment-details glass-card">
+              <p class="upi-label">UPI ID</p>
+              <strong>shivrajpatat@upi</strong>
+              <p class="confirm-note">
+                Payment confirmation note: please share your payment screenshot after booking.
+              </p>
+              <a class="btn btn-secondary" href="#" aria-label="WhatsApp payment contact placeholder">
+                WhatsApp Payment Contact
+              </a>
+            </div>
+          </div>
+
+          <div class="qr-card glass-card reveal-item">
+            <!-- Replace this image with your own -->
+            <img src="images/qr.png" alt="UPI QR code placeholder" />
+            <span>QR code placeholder image</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section id="faq" class="page-section faq-section" data-slide="right">
+        <div class="section-inner faq-grid">
+          <div class="section-heading reveal-item">
+            <p class="eyebrow">FAQ</p>
+            <h2>Client Questions</h2>
+            <p>Quick answers before you book an edit or shoot.</p>
+          </div>
+
+          <div class="faq-list reveal-item">
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">How long does reel editing take?</button>
+              <div class="faq-answer">
+                <p>Most simple reels can be edited in 1 to 3 days. Larger projects may need more time.</p>
+              </div>
+            </article>
+
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">Do you shoot wedding videos?</button>
+              <div class="faq-answer">
+                <p>Yes, wedding shoots and wedding highlight edits are available as premium packages.</p>
+              </div>
+            </article>
+
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">Can I request revisions?</button>
+              <div class="faq-answer">
+                <p>Yes, revision options can be discussed before booking based on the package.</p>
+              </div>
+            </article>
+
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">How do I book a shoot?</button>
+              <div class="faq-answer">
+                <p>Fill out the booking form with your date, shoot type, and project message.</p>
+              </div>
+            </article>
+
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">Which payment methods are accepted?</button>
+              <div class="faq-answer">
+                <p>UPI payments are supported. You can also contact Shivraj for other options.</p>
+              </div>
+            </article>
+
+            <article class="faq-item glass-card">
+              <button class="faq-question" type="button">Do you travel for shoots?</button>
+              <div class="faq-answer">
+                <p>Travel may be available depending on the location, schedule, and project package.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="page-section contact-section" data-slide="left">
+        <div class="section-inner contact-grid">
+          <div class="contact-copy reveal-item">
+            <p class="eyebrow">Contact</p>
+            <h2>Start Your Next Video</h2>
+            <p>Send your footage, shoot idea, date, or reference style and get a professional reply.</p>
+
+            <div class="contact-links">
+              <a href="#" aria-label="Instagram placeholder">Instagram: @shivrajpatat</a>
+              <a href="#" aria-label="WhatsApp placeholder">WhatsApp: +91 00000 00000</a>
+              <a href="mailto:shivrajpatat@example.com">shivrajpatat@example.com</a>
+            </div>
+          </div>
+
+          <form class="contact-form glass-card reveal-item">
+            <label for="contact-name">Name</label>
+            <input id="contact-name" name="name" type="text" placeholder="Your name" required />
+
+            <label for="contact-email">Email</label>
+            <input id="contact-email" name="email" type="email" placeholder="your@email.com" required />
+
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-note" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Reel video modal -->
+    <div class="video-modal" aria-hidden="true">
+      <div class="modal-content glass-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close video">×</button>
+        <h3 id="modal-title">Reel Preview</h3>
+        <!-- Replace this reel video -->
+        <video controls playsinline poster="images/reel1-poster.jpg">
+          <source src="videos/reel1.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>Edited with creativity by Shivraj Patat</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
